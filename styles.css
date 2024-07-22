@@ -1,0 +1,14 @@
+.normal {
+    width: 100px;
+    height: 100px;
+}
+
+.number {
+    font-size: 50px;
+}
+
+#display {
+    font-size: 50px;
+    width: 508px;
+    height: 100px;
+}

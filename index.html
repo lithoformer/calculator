@@ -11,59 +11,61 @@
 </head>
 
 <body>
-    <input type="text" id="display" value="">
-    <div><span>
-            <button class="normal" id="one"><span class='number'>1</span></button>
-        </span>
-        <span>
-            <button class="normal" id="two"><span class='number'>2</span></button>
-        </span><span>
-            <button class="normal" id="three"><span class='number'>3</span></button>
-        </span> <span>
-            <button class="normal" id="add"><span class='number'>+</span></button>
-        </span><span>
-            <button class="normal" id="clear"><span class='number'>C</span></button>
-        </span>
-    </div>
-    <div><span>
-            <button class="normal" id="four"><span class='number'>4</span></button>
-        </span>
-        <span>
-            <button class="normal" id="five"><span class='number'>5</span></button>
-        </span><span>
-            <button class="normal" id="six"><span class='number'>6</span></button>
-        </span><span>
-            <button class="normal" id="subtract"><span class='number'>-</span></button>
-        </span><span>
-            <button class="normal" id="allclear"><span class='number'>AC</span></button>
-        </span>
-    </div>
-    <div><span>
-            <button class="normal" id="seven"><span class='number'>7</span></button>
-        </span>
-        <span>
-            <button class="normal" id="eight"><span class='number'>8</span></button>
-        </span><span>
-            <button class="normal" id="nine"><span class='number'>9</span></button>
-        </span><span>
-            <button class="normal" id="multiply"><span class='number'>x</span></button>
-        </span><span>
-            <button class="normal" id="negative"><span class='number'>(-)</span></button>
-        </span>
-    </div>
-    <div><span>
-            <button class="normal" id="zero"><span class='number'>0</span></button>
-        </span>
-        <span>
-            <button class="normal" id="decimal"><span class='number'>.</span></button>
-        </span><span>
-            <button class="normal" id="equals"><span class='number'>=</span></button>
-        </span><span>
-            <button class="normal" id="divide"><span class='number'>&div;</span></button>
-        </span><span>
-            <button class="normal" id="backspace">
-                <span class='number'>&lt;</span></button>
-        </span>
+    <div class="outer">
+        <input type="text" id="display" value="">
+        <div><span>
+                <button class="num" id="one"><span class='number'>1</span></button>
+            </span>
+            <span>
+                <button class="num" id="two"><span class='number'>2</span></button>
+            </span><span>
+                <button class="num" id="three"><span class='number'>3</span></button>
+            </span> <span>
+                <button class="symbol" id="add"><span class='number'>+</span></button>
+            </span><span>
+                <button class="symbol" id="clear"><span class='number'>C</span></button>
+            </span>
+        </div>
+        <div><span>
+                <button class="num" id="four"><span class='number'>4</span></button>
+            </span>
+            <span>
+                <button class="num" id="five"><span class='number'>5</span></button>
+            </span><span>
+                <button class="num" id="six"><span class='number'>6</span></button>
+            </span><span>
+                <button class="symbol" id="subtract"><span class='number'>-</span></button>
+            </span><span>
+                <button class="symbol" id="allclear"><span class='number'>AC</span></button>
+            </span>
+        </div>
+        <div><span>
+                <button class="num" id="seven"><span class='number'>7</span></button>
+            </span>
+            <span>
+                <button class="num" id="eight"><span class='number'>8</span></button>
+            </span><span>
+                <button class="num" id="nine"><span class='number'>9</span></button>
+            </span><span>
+                <button class="symbol" id="multiply"><span class='number'>x</span></button>
+            </span><span>
+                <button class="symbol" id="negative"><span class='number'>(-)</span></button>
+            </span>
+        </div>
+        <div><span>
+                <button class="num" id="zero"><span class='number'>0</span></button>
+            </span>
+            <span>
+                <button class="symbol" id="decimal"><span class='number'>.</span></button>
+            </span><span>
+                <button class="symbol" id="backspace">
+                    <span class='number'>&lt;</span></button>
+            </span><span>
+                <button class="symbol" id="divide"><span class='number'>&div;</span></button>
+            </span><span>
+                <button class="symbol" id="equals"><span class='number'>=</span></button>
+            </span>
+        </div>
     </div>
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

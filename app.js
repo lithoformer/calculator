@@ -341,22 +341,38 @@ backspace.addEventListener('click', () => {
 });
 
 function addition(curr, next) {
-    return Number(curr) + Number(next);
+    const val = Number(curr) + Number(next);
+    if (Number.isInteger(val))
+        return val;
+    else
+        return val.toFixed(15);
 }
 
 function subtraction(curr, next) {
-    return Number(curr) - Number(next);
+    const val = Number(curr) - Number(next);
+    if (Number.isInteger(val))
+        return val;
+    else
+        return val.toFixed(15);
 }
 
 function multiplication(curr, next) {
-    return Number(curr) * Number(next);
+    const val = Number(curr) * Number(next);
+    if (Number.isInteger(val))
+        return val;
+    else
+        return val.toFixed(15);
 }
 
 function division(curr, next) {
     if (Number(next) === 0) {
-        display.value = 'Error';
+        return display.value = 'Error';
     }
     else {
-        return Number(curr) / Number(next);
+        const val = Number(curr) / Number(next);
+        if (Number.isInteger(val))
+            return val;
+        else
+            return val.toFixed(15);
     }
 }

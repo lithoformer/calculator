@@ -1,14 +1,42 @@
-.normal {
+.num,
+.symbol {
+    font-size: 50px;
     width: 100px;
     height: 100px;
 }
 
+.num {
+    background-color: slateblue;
+}
+
+.symbol {
+    background-color: orange;
+}
+
 .number {
     font-size: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: 'slateblue';
 }
 
 #display {
     font-size: 50px;
-    width: 508px;
-    height: 100px;
+    max-width: 518px;
+    max-height: 100px;
+    background-color: slategray;
+    font-weight: bold;
+    opacity: .75;
+    color: black;
+}
+
+.outer {
+    max-width: 600px;
+    max-height: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid slategray;
+    background-color: ghostwhite
 }
